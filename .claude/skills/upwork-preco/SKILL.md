@@ -16,6 +16,15 @@ Objetivo: o preço nunca pode ser o motivo de o cliente ignorar a proposta. O la
 
 Se o usuário não tiver o item 3, estime pela faixa de orçamento e diga que é uma estimativa.
 
+## Filtro de cliente (antes do preço)
+Pule a vaga se faltar qualquer item:
+- Pagamento verificado
+- **Gasto total ≥ US$ 50K**. US$ 10–50K só passa com contrato longo e ≥ 4.8★
+- **Avaliação ≥ 4.7★**. Abaixo disso, só se o gasto passar de US$ 80K e a nota for ≥ 4.5★
+- Nada de orçamento simbólico (US$ 15 ou US$ 50 por "projeto")
+
+Prioridade: agências e marcas com gasto alto. Elas recontratam e viram retainer.
+
 ## Regra de preço
 - **Base = média dos lances.** Sem média, use o ponto médio do orçamento.
 - Até 5 propostas e cliente com gasto acima de US$ 10k: até **+5%** da base.

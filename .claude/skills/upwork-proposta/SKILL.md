@@ -7,6 +7,15 @@ description: Escreve propostas curtas para Upwork em inglês, com tom humano e p
 
 A conversa com o usuário é em português. **A proposta é sempre em inglês.** Ela tem **60 a 110 palavras**: curta vence longa.
 
+## Avaliação obrigatória antes de qualquer proposta
+Não mostre nenhuma proposta ao usuário sem passar pelas 4 etapas:
+1. **A vaga existe?** Abra a página da vaga. Se não der para abrir, ou se ela estiver fechada, pausada ou com "Hired", descarte. Alerta de e-mail não conta como prova.
+2. **O cliente sabe o que quer?** Descarte se faltar escopo, se a skill pedida não tiver relação com o título (ex.: "Graphic Design" numa vaga de vídeo) ou se o orçamento for $0 ou simbólico. Descarte também texto genérico de uma linha.
+3. **Pesquise o assunto na internet.** Entenda o formato, o termo técnico ou o produto do cliente (site da marca, o que vende, quem é o público). Resuma em 2 linhas para o usuário.
+4. **Só então** rode `upwork-preco` e escreva a proposta.
+
+Se alguma etapa não puder ser feita (sem acesso à página), diga isso e não entregue a proposta como pronta.
+
 ## Ativos (use só se servirem à vaga, no máximo 1 ou 2)
 - Portfólio: creatormateusai.com
 - UGC ads: testimonial, unboxing, demo

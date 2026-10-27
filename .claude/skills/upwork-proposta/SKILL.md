@@ -44,7 +44,7 @@ Escreva como um profissional ocupado escreve no Slack: frases curtas, contraçõ
 Mostre a proposta pronta para colar e, abaixo, **uma variação alternativa** de primeira linha. Se o usuário colar também os dados de preço, rode antes a skill `upwork-preco` e mostre o lance junto.
 
 ### Exemplo
-> Here's a UGC unboxing I made for a skincare brand, close to what you're after: creatormateusai.com
+> Here's a UGC unboxing ad I made, close to what you're after: creatormateusai.com
 >
 > You mentioned 4 videos for TikTok with a female creator around 30. I'd keep the same AI creator across all four, so it reads like one real person using the product.
 >

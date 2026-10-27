@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Creator Mateus.C — AI UGC Ads</title>
+<meta name="description" content="AI UGC ads for DTC and e-commerce brands. Testimonials, unboxings and demos with consistent AI creators — 10+ hooks a week, delivered in 72h.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0d;--fg:#f4f4f5;--mut:#a1a1aa;--card:#16161a;--acc:#c6ff3d;--line:#27272a}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 Inter,system-ui,sans-serif}
+a{color:inherit}
+.w{max-width:1100px;margin:0 auto;padding:0 16px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+nav b{font-weight:800}
+.btn{display:inline-block;background:var(--acc);color:#000;font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}
+.ghost{background:none;color:var(--fg);border:1px solid var(--line)}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h1{font-size:clamp(34px,6vw,64px);line-height:1.05;font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(26px,4vw,40px);font-weight:800;margin-bottom:12px}
+.lead{color:var(--mut);font-size:19px;max-width:620px;margin:18px 0 28px}
+.proof{display:flex;flex-wrap:wrap;gap:28px;margin-top:40px;color:var(--mut);font-size:14px}
+.proof strong{display:block;color:var(--fg);font-size:28px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.vid{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.vid video,.vid .ph{width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#1f1f24}
+.ph{display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:13px}
+.vid p{padding:12px 14px;font-size:14px}
+.vid span{display:block;color:var(--acc);font-size:12px;font-weight:600;text-transform:uppercase}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.tabs button{background:var(--card);color:var(--fg);border:1px solid var(--line);padding:8px 16px;border-radius:999px;cursor:pointer;font:inherit;font-size:14px}
+.tabs button.on{background:var(--fg);color:#000}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card h3{margin-bottom:6px}.card .p{font-size:30px;font-weight:800;margin:10px 0}
+.card ul{padding-left:18px;color:var(--mut);font-size:15px}
+.card.hot{border-color:var(--acc)}
+.steps{counter-reset:s;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps div{background:var(--card);border-radius:16px;padding:20px}
+.steps div::before{counter-increment:s;content:counter(s);color:var(--acc);font-weight:800;font-size:28px}
+.cases{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-weight:600}details p{color:var(--mut);margin-top:8px}
+footer{padding:48px 0;color:var(--mut);font-size:14px}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><b>Creator Mateus.C</b><a class="btn" href="#contact">Get 1 free test ad</a></nav>
+
+<header style="padding:48px 0 64px">
+<h1>AI UGC ads that test faster than your creators can film.</h1>
+<p class="lead">Testimonials, unboxings and product demos with consistent AI creators — 10+ new hooks a week for DTC and e-commerce brands, delivered in 72 hours.</p>
+<a class="btn" href="#contact">Get 1 free test ad</a> <a class="btn ghost" href="#work">See the work</a>
+<div class="proof">
+<div><strong>72M</strong>views on an AI series I built</div>
+<div><strong>72h</strong>first delivery</div>
+<div><strong>9:16 · 1:1 · 4:5</strong>every ad, every placement</div>
+</div>
+</header>
+
+<section id="work">
+<h2>Work</h2>
+<div class="tabs" id="tabs">
+<button class="on" data-f="all">All</button><button data-f="ugc">UGC ads</button><button data-f="brand">Brand</button><button data-f="series">Character series</button>
+</div>
+<div class="grid" id="grid">
+<!-- NOVOS TRABALHOS: duplicar um bloco .vid por vídeo; trocar .ph por <video src="..." muted loop playsinline autoplay></video> -->
+<div class="vid" data-c="ugc"><div class="ph">Testimonial — skincare</div><p><span>UGC · Testimonial</span>New work slot</p></div>
+<div class="vid" data-c="ugc"><div class="ph">Unboxing</div><p><span>UGC · Unboxing</span>New work slot</p></div>
+<div class="vid" data-c="ugc"><div class="ph">Product demo</div><p><span>UGC · Demo</span>New work slot</p></div>
+<div class="vid" data-c="ugc"><div class="ph">Problem → solution hook</div><p><span>UGC · Hook test</span>New work slot</p></div>
+<div class="vid" data-c="brand"><div class="ph">Montreux Nestlé Open</div><p><span>Brand</span>Tennis commercial piece</p></div>
+<div class="vid" data-c="series"><div class="ph">Zuka</div><p><span>Character series</span>72M views / 700K subs in 4 months, zero paid media</p></div>
+</div>
+</section>
+
+<section>
+<h2>Why brands use AI UGC</h2>
+<div class="cases">
+<div class="card"><h3>Volume for testing</h3><p style="color:var(--mut)">Paid social rewards fresh creative. You get 10+ hook variations a week without booking, shipping product or reshoots.</p></div>
+<div class="card"><h3>Same creator, every ad</h3><p style="color:var(--mut)">Consistency across dozens of videos is a pipeline problem, not a prompting problem — it's the problem I solved on a 72M-view series.</p></div>
+<div class="card"><h3>Built for the ad account</h3><p style="color:var(--mut)">Hook in the first 2 seconds, captions burned in, every aspect ratio, labelled AI-generated where platforms or law require it.</p></div>
+</div>
+</section>
+
+<section id="pricing">
+<h2>Packages</h2>
+<div class="cards">
+<div class="card"><h3>Test Pack</h3><div class="p">$600</div><ul><li>6 ads: 3 hooks × 2 angles</li><li>All aspect ratios + captions</li><li>Delivered in 5 days</li></ul></div>
+<div class="card hot"><h3>Creative Retainer</h3><div class="p">$1,200<small>/mo</small></div><ul><li>12 ads per month, weekly drops</li><li>Hook iteration from your winners</li><li>Dedicated AI creator for your brand</li></ul></div>
+<div class="card"><h3>Brand Character</h3><div class="p">from $1,500</div><ul><li>Your own consistent AI spokesperson</li><li>Character bible + voice</li><li>Ongoing shorts from $1,000/mo</li></ul></div>
+</div>
+<p style="color:var(--mut);margin-top:14px;font-size:14px">Paid-media usage rights beyond 30 days and perpetual buyouts quoted separately.</p>
+</section>
+
+<section>
+<h2>How it works</h2>
+<div class="steps">
+<div><h3>Send the product</h3><p style="color:var(--mut)">Link, photos and your best-performing ad.</p></div>
+<div><h3>Free test ad</h3><p style="color:var(--mut)">One finished ad with your product in 72h.</p></div>
+<div><h3>Weekly drops</h3><p style="color:var(--mut)">New hooks every week, built on what wins.</p></div>
+</div>
+</section>
+
+<section>
+<h2>FAQ</h2>
+<details><summary>Do the ads say they're AI?</summary><p>Yes where required (Meta, TikTok labels, EU AI Act). Disclosed AI UGC still tests strongly for hooks and angles.</p></details>
+<details><summary>What tools do you use?</summary><p>Veo 3 for dialogue, Kling for motion, Midjourney + Nano Banana for locked reference frames, ElevenLabs for voice, Topaz for finishing.</p></details>
+<details><summary>Can I keep the same creator?</summary><p>Yes — every client gets a locked character used across all their ads.</p></details>
+</section>
+
+<section id="contact">
+<h2>Get one free test ad</h2>
+<p class="lead">Send your product link. You'll get one finished ad in 72 hours — no call required.</p>
+<a class="btn" href="mailto:mateus.skt.scarteziini@gmail.com?subject=Free%20test%20ad">Email me</a>
+<a class="btn ghost" href="https://www.upwork.com/">Hire on Upwork</a>
+</section>
+
+<footer>Mateus Scarteziini · Rio de Janeiro · <a href="?lang=pt">PT-BR</a></footer>
+</div>
+<script>
+document.getElementById('tabs').onclick=e=>{const f=e.target.dataset.f;if(!f)return;
+document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b===e.target));
+document.querySelectorAll('#grid .vid').forEach(v=>v.style.display=f==='all'||v.dataset.c===f?'':'none')}
+</script>
+</body>
+</html>
